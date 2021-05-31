@@ -1,0 +1,20 @@
+	%{
+    #include <stdio.h>
+    int count = 1;
+%}
+
+NUMS [0-9]{2}
+LETRAS [A-Z]{2}
+MATR ({NUMS}-{NUMS}-{LETRAS})|({NUMS}-{LETRAS}-{NUMS})|({LETRAS}-{NUMS}-{NUMS})
+
+%%
+
+{MATR} printf("Matrícula portuguesa! Número de matriculas portuguesas testadas: %d \n", count++);
+
+%%
+
+int main(){
+	yylex();
+	return 0;
+	
+}
