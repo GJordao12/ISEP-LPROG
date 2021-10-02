@@ -1,4 +1,4 @@
 # ISEP - LPROG (2º YEAR - 2º SEMESTER)
-* Language: C and Java (Bison, Flex and ANTLR)
-* University LPROG Projects and Works
-* Year: 2021
+* University LPROG **Projects** and **Works**
+* **Languages and Tools:** C and Java (Bison, Flex and ANTLR)
+* **Year:** 2021
